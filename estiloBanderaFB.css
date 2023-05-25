@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Bandera{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.franja:first-child{
+    display: flex;
+    width: 33.33%;
+    background-color: green;
+}
+.franja:last-child{
+    display: flex;
+    width: 33.33%;
+    background-color: red;
+}
+.franja:nth-child(2){
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

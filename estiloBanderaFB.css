@@ -10,18 +10,19 @@
 }
 
 .franja:first-child{
-    display: flex;
     width: 33.33%;
     background-color: green;
 }
 .franja:last-child{
-    display: flex;
     width: 33.33%;
     background-color: red;
 }
 .franja:nth-child(2){
     width: 33.33%;
-    display: flex;
     align-items: center;
     justify-content: center;
+}
+#img{
+    width: 200px;
+    height: 200px;
 }
